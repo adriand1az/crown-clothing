@@ -12,7 +12,7 @@ function Header (){
                 <Link to='/shop' className='options'> Shop</Link>
             </div>
             <div className="options">
-                <Link to='/contact' className='options'> Shop</Link>
+                <Link to='/contact' className='options'> Contact</Link>
             </div>
         </div>
     )
