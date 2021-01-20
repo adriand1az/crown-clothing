@@ -1,6 +1,7 @@
 // External
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {connect} from 'react-redux';
 
 // Styles
 import './header.styles.scss';
@@ -21,15 +22,22 @@ function Header ({currentUser}){
             <div className="options">
                 <Link to='/contact' className='options'> CONTACT</Link>
                 {
-                    currentUser ?
+                    currentUser ? (
                     <div className='option' onClick={() => auth.signOut()}>
-                    SIGN OUT</div>
-                    :
-                    <Link className='option' to='/signin'>SIGN IN</Link>
-                }
+                    SIGN OUT
+                    </div>
+                    ) : (
+                    <Link className='option' to='/signin'>
+                    SIGN IN
+                    </Link>
+                    )}
             </div>
         </div>
     )
 }
 
-export default Header
+const mapStateToProps = state => ({
+    currentUser: state.user.currentUser
+})
+
+export default connect(mapStateToProps)(Header);
