@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/crown-clothing/static/css/main.cc21e421.chunk.css",
+    "main.js": "/crown-clothing/static/js/main.2f645cc4.chunk.js",
+    "main.js.map": "/crown-clothing/static/js/main.2f645cc4.chunk.js.map",
+    "runtime-main.js": "/crown-clothing/static/js/runtime-main.8cf73ad0.js",
+    "runtime-main.js.map": "/crown-clothing/static/js/runtime-main.8cf73ad0.js.map",
+    "static/js/2.bb9e1b3d.chunk.js": "/crown-clothing/static/js/2.bb9e1b3d.chunk.js",
+    "static/js/2.bb9e1b3d.chunk.js.map": "/crown-clothing/static/js/2.bb9e1b3d.chunk.js.map",
+    "static/js/3.a0089150.chunk.js": "/crown-clothing/static/js/3.a0089150.chunk.js",
+    "static/js/3.a0089150.chunk.js.map": "/crown-clothing/static/js/3.a0089150.chunk.js.map",
+    "index.html": "/crown-clothing/index.html",
+    "service-worker.js": "/crown-clothing/service-worker.js",
+    "service-worker.js.map": "/crown-clothing/service-worker.js.map",
+    "static/css/main.cc21e421.chunk.css.map": "/crown-clothing/static/css/main.cc21e421.chunk.css.map",
+    "static/js/2.bb9e1b3d.chunk.js.LICENSE.txt": "/crown-clothing/static/js/2.bb9e1b3d.chunk.js.LICENSE.txt",
+    "static/media/crown.3a4e2b15.svg": "/crown-clothing/static/media/crown.3a4e2b15.svg",
+    "static/media/shopping-bag.a688874f.svg": "/crown-clothing/static/media/shopping-bag.a688874f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8cf73ad0.js",
+    "static/js/2.bb9e1b3d.chunk.js",
+    "static/css/main.cc21e421.chunk.css",
+    "static/js/main.2f645cc4.chunk.js"
+  ]
+}
